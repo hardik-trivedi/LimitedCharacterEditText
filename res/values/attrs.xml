@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LimitedCharacterLayout">
+        <attr name="inputTextcolor" format="color" />
+        <attr name="displayTextColor" format="color" />
+        <attr name="maxInputLimit" format="integer" />
+        <attr name="numInputLines" format="integer" />
+        <attr name="inputTextSize" format="integer" />
+        <attr name="displayTextSize" format="integer" />
+        <attr name="inputTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="displayTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="inputTextBackground" format="color|reference" />
+        <attr name="displayTextBackground" format="color|reference" />
+        <attr name="displayTextGravity">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+        </attr>
+        <attr name="inputTextGravity">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+        </attr>
+    </declare-styleable>
+
+</resources>

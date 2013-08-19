@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:compound="http://schemas.android.com/apk/res/com.example.compoundview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/msg_coumpound_view"
+        android:textColor="@color/bottle_green"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <com.example.compoundview.LimitedCharacterLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_weight="1"
+        compound:displayTextColor="@color/bottle_green"
+        compound:displayTextGravity="right"
+        compound:displayTextStyle="bold"
+        compound:inputTextBackground="@drawable/white_rounded_bg"
+        compound:inputTextStyle="italic"
+        compound:inputTextcolor="@color/blue"
+        compound:maxInputLimit="300"
+        compound:numInputLines="5" >
+    </com.example.compoundview.LimitedCharacterLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/designed_by"
+        android:textColor="@color/bottle_green"
+        android:textStyle="bold" />
+
+</LinearLayout>

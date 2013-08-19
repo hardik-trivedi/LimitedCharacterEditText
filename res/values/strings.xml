@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LimitedCharacterEditText</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_coumpound_view">Below you view is a custom compound view</string>
+    <string name="designed_by">Designed by : Hardik Trivedi</string>
+
+</resources>
